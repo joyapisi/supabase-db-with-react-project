@@ -1,4 +1,12 @@
 # supabase-db-with-react-project
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="80" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/supabase/supabase/master/packages/common/assets/images/supabase-logo-icon.png" alt="Supabase Logo" width="80" />
+</p>
+
+<h1 align="center">Supabase React Auth Example</h1>
+
 This project gives a general guideline on how you can use an online-based database platform-SUPABASE, for your React project. It can help in Signing up new users, Logging in with email + password, Logging out, and doing Session tracking.
 
 **repo layout**:
