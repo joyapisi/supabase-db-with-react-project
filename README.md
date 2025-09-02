@@ -5,10 +5,43 @@
   <img src="https://raw.githubusercontent.com/supabase/supabase/master/packages/common/assets/images/supabase-logo-icon.png" alt="Supabase Logo" width="80" />
 </p>
 
-<h1 align="center">Supabase React Auth Example</h1>
+<h1 align="center"> 📚Supabase React Auth Example</h1>
 
 This project gives a general guideline on how you can use an online-based database platform-SUPABASE, for your React project. It can help in Signing up new users, Logging in with email + password, Logging out, and doing Session tracking.
+````markdown
 
+## 🚀 Getting Started
+
+1. Clone this repo (or copy files into a new folder):
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/supabase-react-auth.git
+   cd supabase-react-auth
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Add your Supabase project URL + anon key in:
+
+   * `src/supabaseClient.js`
+
+4. Run the app:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🛠 Features
+
+* Sign up new users
+* Log in with email + password
+* Log out
+* Session tracking
 **repo layout**:
 
 ```
@@ -182,50 +215,6 @@ export default function Auth() {
   );
 }
 ```
-
----
-
-## 7. `README.md`
-
-````markdown
-# 📚 Supabase React Auth Example
-
-A minimal React project showing how to use Supabase authentication with email + password.
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repo (or copy files into a new folder):
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/supabase-react-auth.git
-   cd supabase-react-auth
-````
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Add your Supabase project URL + anon key in:
-
-   * `src/supabaseClient.js`
-
-4. Run the app:
-
-   ```bash
-   npm start
-   ```
-
----
-
-## 🛠 Features
-
-* Sign up new users
-* Log in with email + password
-* Log out
-* Session tracking
 
 ```
 
